@@ -42,6 +42,7 @@ export const NotionRenderer: React.FC<{
 
   className?: string
   bodyClassName?: string
+  frameClassName?: string
 
   header?: React.ReactNode
   footer?: React.ReactNode
@@ -117,6 +118,7 @@ export const NotionRenderer: React.FC<{
 export const NotionBlockRenderer: React.FC<{
   className?: string
   bodyClassName?: string
+  frameClassName?: string
   header?: React.ReactNode
   footer?: React.ReactNode
   disableHeader?: boolean
