@@ -11,8 +11,7 @@
   "types": "./building/index.d.ts",
   "sideEffects": false,
   "files": [
-    "building",
-    "src/styles.css"
+    "*"
   ],
   "engines": {
     "node": ">=12"
