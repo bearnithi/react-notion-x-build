@@ -1,5 +1,5 @@
-import * as React from 'react';
+import * as React from 'react'
 export declare const Pdf: React.FC<{
-    file: string;
-}>;
+  file: string
+}>
 //# sourceMappingURL=pdf.d.ts.map

@@ -1,5 +1,5 @@
-import * as React from 'react';
-import { Block, Decoration } from 'notion-types';
+import * as React from 'react'
+import { Block, Decoration } from 'notion-types'
 /**
  * Renders a single piece of Notion text, including basic rich text formatting.
  *
@@ -9,10 +9,10 @@ import { Block, Decoration } from 'notion-types';
  * attributes to the final element's style.
  */
 export declare const Text: React.FC<{
-    value: Decoration[];
-    block: Block;
-    linkProps?: any;
-    linkProtocol?: string;
-    inline?: boolean;
-}>;
+  value: Decoration[]
+  block: Block
+  linkProps?: any
+  linkProtocol?: string
+  inline?: boolean
+}>
 //# sourceMappingURL=text.d.ts.map

@@ -1,8 +1,8 @@
-import * as types from 'notion-types';
+import * as types from 'notion-types'
 export interface EvalFormulaContext {
-    properties: types.PropertyMap;
-    schema: types.CollectionPropertySchemaMap;
-    endDate?: boolean;
+  properties: types.PropertyMap
+  schema: types.CollectionPropertySchemaMap
+  endDate?: boolean
 }
 /**
  * Evaluates a Notion formula expression to a result value.
@@ -17,5 +17,8 @@ export interface EvalFormulaContext {
  * @param formula - Formula to evaluate.
  * @param context - Collection context containing property schema and values.
  */
-export declare function evalFormula(formula: types.Formula, context: EvalFormulaContext): types.FormulaResult;
+export declare function evalFormula(
+  formula: types.Formula,
+  context: EvalFormulaContext
+): types.FormulaResult
 //# sourceMappingURL=eval-formula.d.ts.map
