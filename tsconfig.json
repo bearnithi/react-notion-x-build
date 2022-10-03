@@ -3,8 +3,8 @@
   "compilerOptions": {
     "composite": true,
     "rootDir": "src",
-    "outDir": "build",
-    "tsBuildInfoFile": "build/.tsbuildinfo",
+    "outDir": "building",
+    "tsBuildInfoFile": "building/.tsbuildinfo",
     "emitDeclarationOnly": true,
     "lib": ["DOM", "ESNext"],
     "noImplicitReturns": false,

@@ -6,12 +6,13 @@
   "repository": "NotionX/react-notion-x",
   "author": "Travis Fischer <travis@transitivebullsh.it>",
   "license": "MIT",
-  "main": "./build/index.js",
-  "module": "./build/index.js",
-  "types": "./build/index.d.ts",
+  "main": "./building/index.js",
+  "module": "./building/index.js",
+  "types": "./building/index.d.ts",
   "sideEffects": false,
   "files": [
-    "*", "build", "src"
+    "building",
+    "src/styles.css"
   ],
   "engines": {
     "node": ">=12"

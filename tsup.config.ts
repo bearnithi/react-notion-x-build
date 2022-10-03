@@ -9,7 +9,7 @@ const baseConfig: Options = {
     'src/third-party/modal.tsx',
     'src/third-party/pdf.tsx'
   ],
-  outDir: 'build',
+  outDir: 'building',
   target: 'es2015',
   platform: 'browser',
   format: ['esm'],
@@ -20,13 +20,13 @@ const baseConfig: Options = {
 export default defineConfig([
   {
     ...baseConfig,
-    outDir: 'build/dev',
+    outDir: 'building/dev',
     minify: false,
     sourcemap: true
   },
   {
     ...baseConfig,
-    outDir: 'build',
+    outDir: 'building',
     minify: false,
     sourcemap: false
   }
