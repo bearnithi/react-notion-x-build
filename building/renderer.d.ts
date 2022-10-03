@@ -28,6 +28,7 @@ export declare const NotionRenderer: React.FC<{
   defaultPageCoverPosition?: number
   className?: string
   bodyClassName?: string
+  frameClassName?: string
   header?: React.ReactNode
   footer?: React.ReactNode
   pageHeader?: React.ReactNode
@@ -42,6 +43,7 @@ export declare const NotionRenderer: React.FC<{
 export declare const NotionBlockRenderer: React.FC<{
   className?: string
   bodyClassName?: string
+  frameClassName?: string
   header?: React.ReactNode
   footer?: React.ReactNode
   disableHeader?: boolean
